@@ -26,6 +26,6 @@ public class Product {
     }
 
     public String toString() {
-        return "Product{name='" + getName() + "', price=" + getPrice() + "}";
+        return "Product{name='" + this.getName() + "', price=" + this.getPrice() + "}";
     }
 }

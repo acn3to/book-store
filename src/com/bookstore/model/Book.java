@@ -29,10 +29,10 @@ public class Book extends Product {
     @Override
     public String toString() {
         return "Book{" +
-                "name='" + getName() + '\'' +
-                ", price=" + getPrice() +
-                ", author='" + getAuthor() + '\'' +
-                ", pages=" + getPages() +
+                "name='" + this.getName() + '\'' +
+                ", price=" + this.getPrice() +
+                ", author='" + this.getAuthor() + '\'' +
+                ", pages=" + this.getPages() +
                 '}';
     }
 }
